@@ -1,0 +1,27 @@
+.skills {
+    text-align: center;
+  }
+  
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  
+  .skills ul li {
+    background-color: #3498db;
+    color: white;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+  }
+  
+  .skills ul li:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+  }
